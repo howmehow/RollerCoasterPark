@@ -7,7 +7,7 @@ public abstract class Stall {
     private ParkingSpot parkingSpot;
     private int rating;
 
-    public Stall(String name, String ownerName, ParkingSpot parkingSpot) {
+    public Stall(String name, String ownerName, ParkingSpot parkingSpot, int rating) {
         this.name = name;
         this.ownerName = ownerName;
         this.parkingSpot = parkingSpot;
